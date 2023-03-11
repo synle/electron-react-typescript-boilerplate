@@ -218,7 +218,11 @@
     },
     "linux": {
       "target": [
-        "AppImage"
+        "AppImage",
+        "deb",
+        "rpm",
+        "snap",
+        "pacman"
       ],
       "category": "Development"
     },
@@ -232,7 +236,7 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-typescript-boilerplate",
+      "owner": "synle",
       "repo": "electron-react-typescript-boilerplate"
     }
   },
